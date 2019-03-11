@@ -1,0 +1,32 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelindaMezinca/typescript-starter.git"
+  },
+  "author": "Melinda Mezinca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelindaMezinca/typescript-starter/issues"
+  },
+  "homepage": "https://github.com/MelindaMezinca/typescript-starter#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4"
+  }
+}
